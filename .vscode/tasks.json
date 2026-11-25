@@ -1,0 +1,46 @@
+﻿{
+    "version":  "2.0.0",
+    "tasks":  [
+                  {
+                      "label":  "Auto Push Now",
+                      "type":  "process",
+                      "command":  "C:\\Users\\slkir\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+                      "args":  [
+                                   "C:\\Users\\slkir\\.autopush\\github_autopush.py",
+                                   "--now"
+                               ],
+                      "problemMatcher":  [
+
+                                         ]
+                  },
+                  {
+                      "label":  "Run project",
+                      "type":  "process",
+                      "command":  "python",
+                      "args":  [
+                                   "server.py"
+                               ],
+                      "problemMatcher":  [
+
+                                         ]
+                  },
+                  {
+                      "label":  "Syntax check",
+                      "type":  "process",
+                      "command":  "python",
+                      "args":  [
+                                   "-m",
+                                   "py_compile",
+                                   "agent.py",
+                                   "generate_token.py",
+                                   "prompts.py",
+                                   "server.py",
+                                   "tools.py",
+                                   "word list.py"
+                               ],
+                      "problemMatcher":  [
+
+                                         ]
+                  }
+              ]
+}
