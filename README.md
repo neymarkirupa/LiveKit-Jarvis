@@ -41,3 +41,7 @@ A voice-based AI Assistant backend powered by **LiveKit** and **FastAPI**, model
 - `server.py`: FastAPI application serving the assistant endpoints.
 - `prompts.py`: System prompts controlling the AI's persona and behavior.
 - `tools.py`: Placeholder for custom functions the AI can invoke.
+
+## License
+
+This project is distributed under the MIT License. See [LICENSE](LICENSE).
